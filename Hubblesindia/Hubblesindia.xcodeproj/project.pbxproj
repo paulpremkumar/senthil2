@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		341D3875A2AF6C3151EFE628 /* Pods_Hubblesindia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F10B803A97DFDA958C3F4CF /* Pods_Hubblesindia.framework */; };
+		5D8B33975F3D16865A65A0BD /* Pods_Hubblesindia_HubblesindiaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C58ADE03313457EBC353F14 /* Pods_Hubblesindia_HubblesindiaUITests.framework */; };
+		84C502AC2580FF8F00F9302F /* UrlClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C502AB2580FF8F00F9302F /* UrlClass.swift */; };
+		84C502B12580FFF400F9302F /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C502B02580FFF400F9302F /* SingletonClass.swift */; };
+		84C502C42581135D00F9302F /* DynamicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C502C32581135D00F9302F /* DynamicCell.swift */; };
+		84C502D8258128C700F9302F /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C502D7258128C700F9302F /* DetailsController.swift */; };
+		98364EE06C5C10519E8A5833 /* Pods_HubblesindiaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9367D430412D7BB14DE7057D /* Pods_HubblesindiaTests.framework */; };
+		C09813762580C42E00DA4A4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09813752580C42E00DA4A4F /* AppDelegate.swift */; };
+		C09813782580C42E00DA4A4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09813772580C42E00DA4A4F /* SceneDelegate.swift */; };
+		C098137A2580C42E00DA4A4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09813792580C42E00DA4A4F /* ViewController.swift */; };
+		C098137D2580C42E00DA4A4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C098137B2580C42E00DA4A4F /* Main.storyboard */; };
+		C09813802580C42E00DA4A4F /* Hubblesindia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C098137E2580C42E00DA4A4F /* Hubblesindia.xcdatamodeld */; };
+		C09813822580C43200DA4A4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09813812580C43200DA4A4F /* Assets.xcassets */; };
+		C09813852580C43200DA4A4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09813832580C43200DA4A4F /* LaunchScreen.storyboard */; };
+		C09813902580C43300DA4A4F /* HubblesindiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C098138F2580C43300DA4A4F /* HubblesindiaTests.swift */; };
+		C098139B2580C43300DA4A4F /* HubblesindiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C098139A2580C43300DA4A4F /* HubblesindiaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C098138C2580C43300DA4A4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C098136A2580C42E00DA4A4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C09813712580C42E00DA4A4F;
+			remoteInfo = Hubblesindia;
+		};
+		C09813972580C43300DA4A4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C098136A2580C42E00DA4A4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C09813712580C42E00DA4A4F;
+			remoteInfo = Hubblesindia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		131643EA5C48FFD85C30EAA3 /* Pods-Hubblesindia-HubblesindiaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hubblesindia-HubblesindiaUITests.release.xcconfig"; path = "Target Support Files/Pods-Hubblesindia-HubblesindiaUITests/Pods-Hubblesindia-HubblesindiaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C58ADE03313457EBC353F14 /* Pods_Hubblesindia_HubblesindiaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hubblesindia_HubblesindiaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF81042F2627973CC626ECA /* Pods-Hubblesindia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hubblesindia.release.xcconfig"; path = "Target Support Files/Pods-Hubblesindia/Pods-Hubblesindia.release.xcconfig"; sourceTree = "<group>"; };
+		6F10B803A97DFDA958C3F4CF /* Pods_Hubblesindia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hubblesindia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		845E52B86001296B04CFD5C3 /* Pods-HubblesindiaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HubblesindiaTests.debug.xcconfig"; path = "Target Support Files/Pods-HubblesindiaTests/Pods-HubblesindiaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84C502AB2580FF8F00F9302F /* UrlClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlClass.swift; sourceTree = "<group>"; };
+		84C502B02580FFF400F9302F /* SingletonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
+		84C502C32581135D00F9302F /* DynamicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCell.swift; sourceTree = "<group>"; };
+		84C502D7258128C700F9302F /* DetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
+		9367D430412D7BB14DE7057D /* Pods_HubblesindiaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HubblesindiaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9986AFFEAB2983FBA13609D6 /* Pods-HubblesindiaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HubblesindiaTests.release.xcconfig"; path = "Target Support Files/Pods-HubblesindiaTests/Pods-HubblesindiaTests.release.xcconfig"; sourceTree = "<group>"; };
+		A27A4E9027995CFF65EF9200 /* Pods-Hubblesindia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hubblesindia.debug.xcconfig"; path = "Target Support Files/Pods-Hubblesindia/Pods-Hubblesindia.debug.xcconfig"; sourceTree = "<group>"; };
+		C09813722580C42E00DA4A4F /* Hubblesindia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hubblesindia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09813752580C42E00DA4A4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C09813772580C42E00DA4A4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C09813792580C42E00DA4A4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C098137C2580C42E00DA4A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C098137F2580C42E00DA4A4F /* Hubblesindia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hubblesindia.xcdatamodel; sourceTree = "<group>"; };
+		C09813812580C43200DA4A4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C09813842580C43200DA4A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C09813862580C43200DA4A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C098138B2580C43300DA4A4F /* HubblesindiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HubblesindiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C098138F2580C43300DA4A4F /* HubblesindiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubblesindiaTests.swift; sourceTree = "<group>"; };
+		C09813912580C43300DA4A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09813962580C43300DA4A4F /* HubblesindiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HubblesindiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C098139A2580C43300DA4A4F /* HubblesindiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubblesindiaUITests.swift; sourceTree = "<group>"; };
+		C098139C2580C43300DA4A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F951ADAE9309110B94716A3F /* Pods-Hubblesindia-HubblesindiaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hubblesindia-HubblesindiaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Hubblesindia-HubblesindiaUITests/Pods-Hubblesindia-HubblesindiaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C098136F2580C42E00DA4A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341D3875A2AF6C3151EFE628 /* Pods_Hubblesindia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09813882580C43300DA4A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98364EE06C5C10519E8A5833 /* Pods_HubblesindiaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09813932580C43300DA4A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8B33975F3D16865A65A0BD /* Pods_Hubblesindia_HubblesindiaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61C52A38E85C70B207792A42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F10B803A97DFDA958C3F4CF /* Pods_Hubblesindia.framework */,
+				5C58ADE03313457EBC353F14 /* Pods_Hubblesindia_HubblesindiaUITests.framework */,
+				9367D430412D7BB14DE7057D /* Pods_HubblesindiaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB37D7A326B9E2A7E5C00392 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A27A4E9027995CFF65EF9200 /* Pods-Hubblesindia.debug.xcconfig */,
+				5DF81042F2627973CC626ECA /* Pods-Hubblesindia.release.xcconfig */,
+				F951ADAE9309110B94716A3F /* Pods-Hubblesindia-HubblesindiaUITests.debug.xcconfig */,
+				131643EA5C48FFD85C30EAA3 /* Pods-Hubblesindia-HubblesindiaUITests.release.xcconfig */,
+				845E52B86001296B04CFD5C3 /* Pods-HubblesindiaTests.debug.xcconfig */,
+				9986AFFEAB2983FBA13609D6 /* Pods-HubblesindiaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C09813692580C42E00DA4A4F = {
+			isa = PBXGroup;
+			children = (
+				C09813742580C42E00DA4A4F /* Hubblesindia */,
+				C098138E2580C43300DA4A4F /* HubblesindiaTests */,
+				C09813992580C43300DA4A4F /* HubblesindiaUITests */,
+				C09813732580C42E00DA4A4F /* Products */,
+				AB37D7A326B9E2A7E5C00392 /* Pods */,
+				61C52A38E85C70B207792A42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C09813732580C42E00DA4A4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C09813722580C42E00DA4A4F /* Hubblesindia.app */,
+				C098138B2580C43300DA4A4F /* HubblesindiaTests.xctest */,
+				C09813962580C43300DA4A4F /* HubblesindiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C09813742580C42E00DA4A4F /* Hubblesindia */ = {
+			isa = PBXGroup;
+			children = (
+				C09813752580C42E00DA4A4F /* AppDelegate.swift */,
+				C09813772580C42E00DA4A4F /* SceneDelegate.swift */,
+				C09813792580C42E00DA4A4F /* ViewController.swift */,
+				C098137B2580C42E00DA4A4F /* Main.storyboard */,
+				C09813812580C43200DA4A4F /* Assets.xcassets */,
+				C09813832580C43200DA4A4F /* LaunchScreen.storyboard */,
+				C09813862580C43200DA4A4F /* Info.plist */,
+				C098137E2580C42E00DA4A4F /* Hubblesindia.xcdatamodeld */,
+				84C502AB2580FF8F00F9302F /* UrlClass.swift */,
+				84C502B02580FFF400F9302F /* SingletonClass.swift */,
+				84C502C32581135D00F9302F /* DynamicCell.swift */,
+				84C502D7258128C700F9302F /* DetailsController.swift */,
+			);
+			path = Hubblesindia;
+			sourceTree = "<group>";
+		};
+		C098138E2580C43300DA4A4F /* HubblesindiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C098138F2580C43300DA4A4F /* HubblesindiaTests.swift */,
+				C09813912580C43300DA4A4F /* Info.plist */,
+			);
+			path = HubblesindiaTests;
+			sourceTree = "<group>";
+		};
+		C09813992580C43300DA4A4F /* HubblesindiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C098139A2580C43300DA4A4F /* HubblesindiaUITests.swift */,
+				C098139C2580C43300DA4A4F /* Info.plist */,
+			);
+			path = HubblesindiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C09813712580C42E00DA4A4F /* Hubblesindia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C098139F2580C43300DA4A4F /* Build configuration list for PBXNativeTarget "Hubblesindia" */;
+			buildPhases = (
+				C129C67DD2A4A5FA82925B01 /* [CP] Check Pods Manifest.lock */,
+				C098136E2580C42E00DA4A4F /* Sources */,
+				C098136F2580C42E00DA4A4F /* Frameworks */,
+				C09813702580C42E00DA4A4F /* Resources */,
+				D7774E582EFFE901770C3CCF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hubblesindia;
+			productName = Hubblesindia;
+			productReference = C09813722580C42E00DA4A4F /* Hubblesindia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C098138A2580C43300DA4A4F /* HubblesindiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09813A22580C43300DA4A4F /* Build configuration list for PBXNativeTarget "HubblesindiaTests" */;
+			buildPhases = (
+				A2205E29FE13E977F67DF6A3 /* [CP] Check Pods Manifest.lock */,
+				C09813872580C43300DA4A4F /* Sources */,
+				C09813882580C43300DA4A4F /* Frameworks */,
+				C09813892580C43300DA4A4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C098138D2580C43300DA4A4F /* PBXTargetDependency */,
+			);
+			name = HubblesindiaTests;
+			productName = HubblesindiaTests;
+			productReference = C098138B2580C43300DA4A4F /* HubblesindiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C09813952580C43300DA4A4F /* HubblesindiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09813A52580C43300DA4A4F /* Build configuration list for PBXNativeTarget "HubblesindiaUITests" */;
+			buildPhases = (
+				26938CFD321761B502E780BE /* [CP] Check Pods Manifest.lock */,
+				C09813922580C43300DA4A4F /* Sources */,
+				C09813932580C43300DA4A4F /* Frameworks */,
+				C09813942580C43300DA4A4F /* Resources */,
+				953A53EC0D73DE65329D5256 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C09813982580C43300DA4A4F /* PBXTargetDependency */,
+			);
+			name = HubblesindiaUITests;
+			productName = HubblesindiaUITests;
+			productReference = C09813962580C43300DA4A4F /* HubblesindiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C098136A2580C42E00DA4A4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "senthil kumar";
+				TargetAttributes = {
+					C09813712580C42E00DA4A4F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C098138A2580C43300DA4A4F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C09813712580C42E00DA4A4F;
+					};
+					C09813952580C43300DA4A4F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C09813712580C42E00DA4A4F;
+					};
+				};
+			};
+			buildConfigurationList = C098136D2580C42E00DA4A4F /* Build configuration list for PBXProject "Hubblesindia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C09813692580C42E00DA4A4F;
+			productRefGroup = C09813732580C42E00DA4A4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C09813712580C42E00DA4A4F /* Hubblesindia */,
+				C098138A2580C43300DA4A4F /* HubblesindiaTests */,
+				C09813952580C43300DA4A4F /* HubblesindiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C09813702580C42E00DA4A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09813852580C43200DA4A4F /* LaunchScreen.storyboard in Resources */,
+				C09813822580C43200DA4A4F /* Assets.xcassets in Resources */,
+				C098137D2580C42E00DA4A4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09813892580C43300DA4A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09813942580C43300DA4A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26938CFD321761B502E780BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hubblesindia-HubblesindiaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		953A53EC0D73DE65329D5256 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hubblesindia-HubblesindiaUITests/Pods-Hubblesindia-HubblesindiaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hubblesindia-HubblesindiaUITests/Pods-Hubblesindia-HubblesindiaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hubblesindia-HubblesindiaUITests/Pods-Hubblesindia-HubblesindiaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2205E29FE13E977F67DF6A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HubblesindiaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C129C67DD2A4A5FA82925B01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hubblesindia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7774E582EFFE901770C3CCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hubblesindia/Pods-Hubblesindia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hubblesindia/Pods-Hubblesindia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hubblesindia/Pods-Hubblesindia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C098136E2580C42E00DA4A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C502C42581135D00F9302F /* DynamicCell.swift in Sources */,
+				84C502B12580FFF400F9302F /* SingletonClass.swift in Sources */,
+				C098137A2580C42E00DA4A4F /* ViewController.swift in Sources */,
+				84C502AC2580FF8F00F9302F /* UrlClass.swift in Sources */,
+				84C502D8258128C700F9302F /* DetailsController.swift in Sources */,
+				C09813762580C42E00DA4A4F /* AppDelegate.swift in Sources */,
+				C09813782580C42E00DA4A4F /* SceneDelegate.swift in Sources */,
+				C09813802580C42E00DA4A4F /* Hubblesindia.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09813872580C43300DA4A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09813902580C43300DA4A4F /* HubblesindiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09813922580C43300DA4A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C098139B2580C43300DA4A4F /* HubblesindiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C098138D2580C43300DA4A4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C09813712580C42E00DA4A4F /* Hubblesindia */;
+			targetProxy = C098138C2580C43300DA4A4F /* PBXContainerItemProxy */;
+		};
+		C09813982580C43300DA4A4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C09813712580C42E00DA4A4F /* Hubblesindia */;
+			targetProxy = C09813972580C43300DA4A4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C098137B2580C42E00DA4A4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C098137C2580C42E00DA4A4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C09813832580C43200DA4A4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C09813842580C43200DA4A4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C098139D2580C43300DA4A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C098139E2580C43300DA4A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C09813A02580C43300DA4A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A27A4E9027995CFF65EF9200 /* Pods-Hubblesindia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULR8H7473X;
+				INFOPLIST_FILE = Hubblesindia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Thinksynq.Hubblesindia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C09813A12580C43300DA4A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DF81042F2627973CC626ECA /* Pods-Hubblesindia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULR8H7473X;
+				INFOPLIST_FILE = Hubblesindia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Thinksynq.Hubblesindia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C09813A32580C43300DA4A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845E52B86001296B04CFD5C3 /* Pods-HubblesindiaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULR8H7473X;
+				INFOPLIST_FILE = HubblesindiaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Thinksynq.HubblesindiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hubblesindia.app/Hubblesindia";
+			};
+			name = Debug;
+		};
+		C09813A42580C43300DA4A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9986AFFEAB2983FBA13609D6 /* Pods-HubblesindiaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULR8H7473X;
+				INFOPLIST_FILE = HubblesindiaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Thinksynq.HubblesindiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hubblesindia.app/Hubblesindia";
+			};
+			name = Release;
+		};
+		C09813A62580C43300DA4A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F951ADAE9309110B94716A3F /* Pods-Hubblesindia-HubblesindiaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULR8H7473X;
+				INFOPLIST_FILE = HubblesindiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Thinksynq.HubblesindiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hubblesindia;
+			};
+			name = Debug;
+		};
+		C09813A72580C43300DA4A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131643EA5C48FFD85C30EAA3 /* Pods-Hubblesindia-HubblesindiaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULR8H7473X;
+				INFOPLIST_FILE = HubblesindiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Thinksynq.HubblesindiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hubblesindia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C098136D2580C42E00DA4A4F /* Build configuration list for PBXProject "Hubblesindia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C098139D2580C43300DA4A4F /* Debug */,
+				C098139E2580C43300DA4A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C098139F2580C43300DA4A4F /* Build configuration list for PBXNativeTarget "Hubblesindia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09813A02580C43300DA4A4F /* Debug */,
+				C09813A12580C43300DA4A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C09813A22580C43300DA4A4F /* Build configuration list for PBXNativeTarget "HubblesindiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09813A32580C43300DA4A4F /* Debug */,
+				C09813A42580C43300DA4A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C09813A52580C43300DA4A4F /* Build configuration list for PBXNativeTarget "HubblesindiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09813A62580C43300DA4A4F /* Debug */,
+				C09813A72580C43300DA4A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C098137E2580C42E00DA4A4F /* Hubblesindia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C098137F2580C42E00DA4A4F /* Hubblesindia.xcdatamodel */,
+			);
+			currentVersion = C098137F2580C42E00DA4A4F /* Hubblesindia.xcdatamodel */;
+			path = Hubblesindia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C098136A2580C42E00DA4A4F /* Project object */;
+}
